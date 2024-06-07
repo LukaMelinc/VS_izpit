@@ -1,0 +1,9 @@
+Therac
+- takrat so mislili, da software ne more zatajit, naprava praktično ni bila stestirana
+- V kodi je bil task, ki je izvajala zdravljenje
+- spremenljivka je določala, katero od 8 zdravljenj se je izvajalo
+- najprej se je izbralo ukaz za xray in prebralo vrednost energije, 8 sekund se je nato nastavljalo magnete za xray obsevanje
+- v teh osmih sekundah se je vneslo nov ukaz, ampak zadeva novega ukaza ni prebrala
+- zgodil se je race condition, to je takrat, ko lahko do iste lokacije dostopata dva različna procesa
+- Ta dva procesa sta skušala pisati na isti del pomnilnika "hkrati"
+- race condition se da preprečiti s sinhronizacijo
