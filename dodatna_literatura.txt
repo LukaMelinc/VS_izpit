@@ -1,3 +1,7 @@
+Infosec
+- niso razkrili passworda, pi user je bil še aktiven, SSH enabeled
+- dumbsterfire koda, ogromno nekega šodra
+
 Therac
 - takrat so mislili, da software ne more zatajit, naprava praktično ni bila stestirana
 - V kodi je bil task, ki je izvajala zdravljenje
